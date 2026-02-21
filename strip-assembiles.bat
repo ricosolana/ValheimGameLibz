@@ -1,6 +1,6 @@
 @echo off 
 
-set toPublicize=Assembly-CSharp.dll assembly_valheim.dll assembly_utils.dll assembly_postprocessing.dll assembly_sunshafts.dll assembly_steamworks.dll assembly_simplemeshcombine.dll assembly_lux.dll assembly_guiutils.dll assembly_googleanalytics.dll
+set toPublicize=Assembly-CSharp.dll assembly_valheim.dll assembly_utils.dll assembly_postprocessing.dll assembly_sunshafts.dll com.rlabrecque.steamworks.net.dll assembly_simplemeshcombine.dll assembly_lux.dll assembly_guiutils.dll assembly_googleanalytics.dll
 set toIgnore=Mono.Security.dll mscorlib.dll
 
 set exePath=%1
